@@ -1,0 +1,72 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffe8d6;
+  color: #3f4238;
+}
+
+h3 {
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  font-size: 17px;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* ~~~NAV~~ */
+.username-login-container {
+  display: flex;
+  align-items: center;
+  margin-left: 72rem;
+  margin-top: 1rem;
+}
+
+.username {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.fa-sort-down {
+  margin-bottom: 0.5rem;
+}
+
+.nav-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.title-container{
+  display: flex;
+  height: 7rem;
+  margin-right: 2rem;
+}
+
+.fa-seedling {
+  margin-top: 2.5rem;
+}
+
+.page-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+}
+
+.active {
+  color: #b7b7a4;
+}
