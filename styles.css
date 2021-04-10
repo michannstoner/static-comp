@@ -34,8 +34,9 @@ p {
 .username-login-container {
   display: flex;
   align-items: center;
-  margin-left: 74rem;
+  margin-left: 75rem;
   margin-top: 1rem;
+  color: #3f4238;;
 }
 
 .fa-sort-down {
@@ -79,6 +80,12 @@ p {
 
 .active {
   color: #b7b7a4;
+}
+
+.fa-chevron-down,
+.fa-bars,
+.fa-heart {
+  color: #6b705c;
 }
 
 /* ~~~CARD SECTION~~~ */
@@ -175,28 +182,41 @@ p {
   flex-direction: column;
   width: 20rem;
   height: 18rem;
-  background-color: #f0efeb;
-  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%)
+  ;
+  /* #f0efeb; */
 }
 
 .card-title {
-  padding: 15px 0 0 15px;
+  margin-top: 1rem;
+  margin-left: 1rem;
   font-size: 20px;
   color: #3f4238;
 }
 
 .date {
-  padding: 5px 0 0 16px;
+  margin-top: 0.25rem;
+  margin-left: 1rem;
   font-size: 14px;
-  color: #b7b7a4;
+  color: #3f4238;
 }
 
 .style-box {
   padding: 0.75rem 0 0 0.75rem;
   margin-top: 1rem;
-  margin-left: 15px;
+  margin-left: 1rem;
   width: 87%;
   height: 30px;
-  background-color:#b7b7a4;
+  background-color: #ffe8d6;
+  color: #3f4238;
   font-size: 12px;
 }
+
+.sun-container,
+.water-container {
+  margin-left: 1rem;
+  margin-top: 1.75rem;
+  color: #3f4238;
+}
+
