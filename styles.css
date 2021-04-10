@@ -3,9 +3,9 @@
   margin: 0;
 }
 
-/* body {
-  background-color: #d4c7b0;
-} */
+body {
+  background-color: #FBF9F3;
+}
 
 header {
   display: flex;
@@ -111,6 +111,11 @@ h3 {
   margin-top: 1rem;
 }
 
+.views {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
 .one {
   background-image: url('./assets/monstera.jpeg');
 }
@@ -144,6 +149,10 @@ h3 {
 }
 
 .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
   height: 10rem;
   width: 20rem;
   background-size: cover;
@@ -152,8 +161,32 @@ h3 {
 }
 
 .card-bottom {
+  display: flex;
+  flex-direction: column;
   width: 20rem;
   height: 18rem;
   background-color: #f0efeb;
   box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+}
+
+.card-title {
+  padding: 15px 0 0 15px;
+  font-size: 20px;
+  color: #3f4238;
+}
+
+.date {
+  padding: 5px 0 0 16px;
+  font-size: 14px;
+  color: #b7b7a4;
+}
+
+.style-box {
+  padding: 0.75rem 0 0 0.75rem;
+  margin-top: 1rem;
+  margin-left: 15px;
+  width: 87%;
+  height: 30px;
+  background-color:#b7b7a4;
+  font-size: 12px;
 }
