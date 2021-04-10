@@ -21,6 +21,10 @@ h3 {
   font-size: 17px;
 }
 
+p {
+  font-size: 13px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -111,11 +115,6 @@ h3 {
   margin-top: 1rem;
 }
 
-.views {
-  margin-right: 1rem;
-  margin-top: 1rem;
-}
-
 .one {
   background-image: url('./assets/monstera.jpeg');
 }
@@ -158,6 +157,17 @@ h3 {
   background-size: cover;
   opacity: 90%;
   box-shadow: 2 2px 8px 0 rgb(0 0 0 / 15%);
+}
+
+.views-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.number {
+  font-size: 37px;
 }
 
 .card-bottom {
