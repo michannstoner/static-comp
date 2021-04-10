@@ -1,0 +1,222 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #FBF9F3;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffe8d6;
+  color: #3f4238;
+}
+
+h3 {
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  font-size: 17px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ~~~NAV~~ */
+.username-login-container {
+  display: flex;
+  align-items: center;
+  margin-left: 75rem;
+  margin-top: 1rem;
+  color: #3f4238;;
+}
+
+.fa-sort-down {
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.fa-smile {
+  margin-right: 0.5rem;
+}
+.nav-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+
+.title-container{
+  display: flex;
+  height: 7rem;
+  margin-right: 3rem;
+}
+
+.fa-seedling {
+  margin-top: 2.2rem;
+}
+
+.page-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+  margin-top: 2rem;
+}
+
+.active {
+  color: #b7b7a4;
+}
+
+.fa-chevron-down,
+.fa-bars,
+.fa-heart {
+  color: #6b705c;
+}
+
+/* ~~~CARD SECTION~~~ */
+.body-title {
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #3f4238;
+  font-size: 28px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.grid-container { 
+  display: flex;
+  justify-content: center;xs
+  margin: 4rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-arrow-alt-circle-right {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.one {
+  background-image: url('./assets/monstera.jpeg');
+}
+
+.two {
+  background-image: url('./assets/fig.jpeg');
+}
+
+.three {
+  background-image: url('./assets/prayer-plant.jpeg');
+}
+
+.four {
+  background-image: url('./assets/calathea2.jpeg');
+}
+
+.five {
+  background-image: url('./assets/calathea.jpeg');
+}
+
+.six {
+  background-image: url('./assets/palm.jpeg');
+}
+
+.seven {
+  background-image: url('./assets/adansonii.jpeg');
+}
+
+.eight {
+  background-image: url('./assets/ficus.jpeg');
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  height: 10rem;
+  width: 20rem;
+  background-size: cover;
+  opacity: 90%;
+  box-shadow: 2 2px 8px 0 rgb(0 0 0 / 15%);
+}
+
+.views-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.number {
+  font-size: 37px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 18rem;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%)
+  ;
+  /* #f0efeb; */
+}
+
+.card-title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 20px;
+  color: #3f4238;
+}
+
+.date {
+  margin-top: 0.25rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  color: #3f4238;
+}
+
+.style-box {
+  padding: 0.75rem 0 0 0.75rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 87%;
+  height: 30px;
+  background-color: #ffe8d6;
+  color: #3f4238;
+  font-size: 12px;
+}
+
+.sun-container,
+.water-container {
+  margin-left: 1rem;
+  margin-top: 1.75rem;
+  color: #3f4238;
+}
+
