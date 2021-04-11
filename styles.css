@@ -34,8 +34,9 @@ p {
 .username-login-container {
   display: flex;
   align-items: center;
-  margin-left: 75rem;
+  align-self: flex-end;
   margin-top: 1rem;
+  margin-right: 2rem;
   color: #3f4238;;
 }
 
@@ -50,22 +51,22 @@ p {
 .nav-header {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-container {
   display:flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 10rem;
+  align-self: flex-end;
+  width: 100%;
   margin-bottom: 2rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 
 .title-container{
-  display: flex;
-  height: 7rem;
-  margin-right: 3rem;
+  display: flex; 
+  justify-self: flex-end;
+  width: 70%;
+  margin-bottom: 1rem;
 }
 
 .fa-seedling {
@@ -76,6 +77,7 @@ p {
   font-family: 'DM Serif Display', serif;
   font-size: 45px;
   margin-top: 2rem;
+  margin-left: 16rem;
 }
 
 .active {
@@ -90,7 +92,7 @@ p {
 
 /* ~~~CARD SECTION~~~ */
 .body-title {
-  margin-left: 3.5rem;
+  margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #3f4238;
@@ -106,9 +108,8 @@ p {
 
 .grid-container { 
   display: flex;
-  justify-content: center;xs
-  margin: 4rem;
-  margin-bottom: 4rem;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -159,8 +160,8 @@ p {
   justify-content: space-between;
   align-items: flex-start;
   color: white;
-  height: 10rem;
-  width: 20rem;
+  height: 20vh;
+  width: 100%;
   background-size: cover;
   opacity: 90%;
   box-shadow: 2 2px 8px 0 rgb(0 0 0 / 15%);
@@ -180,12 +181,11 @@ p {
 .card-bottom {
   display: flex;
   flex-direction: column;
-  width: 20rem;
-  height: 18rem;
+  height: 38vh;
+  width: 23vw;
   background-color: white;
   box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%)
   ;
-  /* #f0efeb; */
 }
 
 .card-title {
@@ -203,9 +203,10 @@ p {
 }
 
 .style-box {
+  justify-self: center;
   padding: 0.75rem 0 0 0.75rem;
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.75rem;
   width: 87%;
   height: 30px;
   background-color: #ffe8d6;
@@ -219,4 +220,67 @@ p {
   margin-top: 1.75rem;
   color: #3f4238;
 }
+
+@media screen and (max-width: 790px) {
+
+  header {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .fa-seedling {
+    margin-left: 23rem;
+    margin-top: 4rem;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-container {
+    position: absolute;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    display: flex;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: unset;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+
+  .plant-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 15px;
+  }
+
+  .card-bottom {
+    width: 100%;
+  }
+
+  .username-login-container {
+    position: absolute;
+    margin-right: 1rem;
+  }
+}
+
+
+  
+
+
+
+
 
