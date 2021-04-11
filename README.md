@@ -18,7 +18,11 @@ Happy Plant is a static comp challenge, designed to resemble a provided comp but
 ### Setup
 1. `clone` this repository.
 2. `cd` into directory 
-3. 
+3. Run `open index.html` from the command line 
+
+**OR**
+
+[Click here](https://michannstoner.github.io/static-comp/) for deployed site. 
 
 
 ### Technologies 
@@ -38,4 +42,4 @@ I really enjoyed getting some more practice with HTML and CSS for this quick sta
 
 #### Challenges 
 
-I'd say something that is challenging for me still is responsive design and breakpoints. I designed for desktop first, which caused some issues when trying to downsize later on. In future projects, I want to attempt mobile first, and try to set more breakpoints for a more responsive experience. 
+I'd say something that is challenging for me still is responsive design and breakpoints. I designed for desktop first, which caused some issues when trying to downsize later on. In future projects, I want to attempt mobile first, and try to set more breakpoints for a more responsive experience. I wasn't quite able to get the page title 'Happy Plant' to scale the way I wanted, and I'd like to revisit that at a later point to correct it. 
