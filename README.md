@@ -17,6 +17,7 @@ Happy Plant is a static comp challenge, designed to resemble a provided comp but
 
 
 ### Resposive View
+
 ![](https://media.giphy.com/media/B9bM26Mj2nrhQKI03h/giphy.gif)
 
 
