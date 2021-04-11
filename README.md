@@ -1,4 +1,5 @@
-# static-comp
+
+# static-comp-challenge
 
 
 
@@ -7,8 +8,7 @@
 
 
 ### Comp to Re-Create 
-
-
+![screencapture-frontend-turing-io-assets-images-static-comp-challenge-2-jpg-2021-04-11-11_57_18](https://user-images.githubusercontent.com/76269802/114315734-7a858800-9abd-11eb-8411-ad1bf0874073.png)
 
 
 
