@@ -28,7 +28,7 @@ Happy Plant is a static comp challenge, designed to resemble a provided comp but
 ### Images & Icons
 - All images are licensed via [Adobe Stock](https://stock.adobe.com/video?as_channel=sem&as_campclass=brand&as_campaign=US%7CCPRO%7CStock%7CPURCH%7CNew+%26+Repeat+Buyers-RLSA_Brand_Exact%7CGG%7C%7C&as_source=google&as_camptype=acquisition&sdid=4JW79JLQ&mv=search&ef_id=CjwKCAjwvMqDBhB8EiwA2iSmPLH-f9Y0noCjqux57KPhCMi7VbShy_gxrKsdLEpKvAMcf67Yc8or_xoCNrkQAvD_BwE:G:s&s_kwcid=AL!3085!3!444784041065!e!!g!!adobe%20stock!860893199!46279177849&gclid=CjwKCAjwvMqDBhB8EiwA2iSmPLH-f9Y0noCjqux57KPhCMi7VbShy_gxrKsdLEpKvAMcf67Yc8or_xoCNrkQAvD_BwE).
 - All icons are sourced via [Font Awesome](https://fontawesome.com/).
-- Color pallete sourced via [Coolers](https://coolors.co/).
+- Color palette sourced via [Coolers](https://coolors.co/).
 
 ### Project Wins & Challenges 
 #### Wins
